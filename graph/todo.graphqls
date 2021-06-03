@@ -19,5 +19,5 @@ input NewTodo {
 }
 
 extend type Mutation {
-  createTodo(input: NewTodo!): Todo!
+  createTodo(data: NewTodo!): Todo!
 }
